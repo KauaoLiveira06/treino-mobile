@@ -43,12 +43,13 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font: optional;
 }
 
 .lista-menu__link {
-    background: var(--azul-degrade);
+    background: var(--laranja);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: black;
+    -webkit-text-fill-color:black;
     background-clip: text;
     text-transform: uppercase;
 }
