@@ -43,13 +43,17 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
-    font: optional;
+    font-weight: 700;
 }
 
 .lista-menu__link {
-    background: var(--laranja);
+    background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color:black;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.container__botao {
+    display: none;
 }
